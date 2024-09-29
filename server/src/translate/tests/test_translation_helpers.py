@@ -1,5 +1,5 @@
 from django.test import TestCase
-from ..translation_helpers import translate_to_hiragana, translate_to_katakana
+from ..translation_helpers import translate_to_hiragana, translate_to_katakana, katakana_to_romaji, hiragana_to_romaji
 
 class TranslationHelperTestCase(TestCase):
     def test_translate_to_hiragana(self):
